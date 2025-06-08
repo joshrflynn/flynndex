@@ -1,0 +1,63 @@
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 999;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.back-to-top:hover {
+  background-color: #0056b3;
+}
+
+.gen-button {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 10px;
+  font-family: cursive, system-ui;
+  font-size: 24px;
+  background-color: gray;
+  color: white;
+  transition: all .2s;
+}
+
+.gen-button:hover
+{
+  background-color: white;
+  color: gray;
+}
+
+.gen-button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.all-cards-container
+{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+

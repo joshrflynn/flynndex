@@ -1,0 +1,37 @@
+MVP
+--------
+Show each pokemon, one page
+    -- sort options?
+    -- region tabs? default to all regions?
+show pokemon details (should this be routed or expanded on one page)
+    - routed could have a pokeball opening animation when the page loads
+        -- toggleable?
+    -try to include as much details as possible
+        -- needs to be finalized before details page is designed
+
+error page for rate limit
+
+Ideas
+--------
+Random option
+    - gets random pokemon
+
+hover over card does some type of animation
+
+Dark mode
+
+
+instead of pagination, just break it into generational groups
+    - default to all? At least keep query for getting all but include generation
+
+
+
+
+Todo
+---------
+
+
+notes
+-------
+img object path = x.data.pokemon_v2_pokemon.pokemon_v2_pokemonsprites[0].sprites.front_default
+x = api result var

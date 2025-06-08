@@ -1,0 +1,70 @@
+.card
+{
+    transition: all .05s ease-in-out;
+    font-family: "Bagel Fat One", system-ui;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-align: center;
+    width: 180px;
+    height: 290px;
+    border-radius: 8%;
+
+    box-shadow: 3px 1px 5px black;
+    transform-style: preserve-3d;
+    transition: transform 0.4s;
+    /* border: 1px solid black; */
+}
+
+.card-container:hover .card
+{
+    transition-delay: .1s;
+    transform: rotateY(180deg);
+
+}
+
+.card-container {
+    margin: 10px;
+}
+
+.card > img {
+    padding: 5px;
+}
+
+.sprite
+{
+    height: 150px;
+    width: 150px;
+}
+
+.types
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+  }
+
+.card-back > img {
+    transform: rotateY(180deg);
+
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pokemon-name
+{
+    font-size: 24px;
+}
